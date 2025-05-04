@@ -1,0 +1,17 @@
+.verev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: aliceblue;
+    nav {
+        display: flex;
+        gap: 20px;
+        .link {
+            color: black;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
